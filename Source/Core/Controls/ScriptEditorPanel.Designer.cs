@@ -1,0 +1,637 @@
+namespace CodeImp.DoomBuilder.Controls
+{
+	partial class ScriptEditorPanel
+	{
+		/// <summary> 
+		/// Required designer variable.
+		/// </summary>
+		private System.ComponentModel.IContainer components = null;
+
+		/// <summary> 
+		/// Clean up any resources being used.
+		/// </summary>
+		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+		protected override void Dispose(bool disposing)
+		{
+			if(disposing && (components != null))
+			{
+				components.Dispose();
+			}
+			base.Dispose(disposing);
+		}
+
+		#region Component Designer generated code
+
+		/// <summary> 
+		/// Required method for Designer support - do not modify 
+		/// the contents of this method with the code editor.
+		/// </summary>
+		private void InitializeComponent()
+		{
+			this.components = new System.ComponentModel.Container();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ScriptEditorPanel));
+			this.tabs = new System.Windows.Forms.TabControl();
+			this.toolbar = new System.Windows.Forms.ToolStrip();
+			this.buttonnew = new System.Windows.Forms.ToolStripDropDownButton();
+			this.buttonopen = new System.Windows.Forms.ToolStripButton();
+			this.buttonsave = new System.Windows.Forms.ToolStripButton();
+			this.buttonsaveall = new System.Windows.Forms.ToolStripButton();
+			this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+			this.buttonundo = new System.Windows.Forms.ToolStripButton();
+			this.buttonredo = new System.Windows.Forms.ToolStripButton();
+			this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+			this.buttoncut = new System.Windows.Forms.ToolStripButton();
+			this.buttoncopy = new System.Windows.Forms.ToolStripButton();
+			this.buttonpaste = new System.Windows.Forms.ToolStripButton();
+			this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+			this.buttonunindent = new System.Windows.Forms.ToolStripButton();
+			this.buttonindent = new System.Windows.Forms.ToolStripButton();
+			this.buttonwhitespace = new System.Windows.Forms.ToolStripButton();
+			this.buttonwordwrap = new System.Windows.Forms.ToolStripButton();
+			this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+			this.buttonsnippets = new System.Windows.Forms.ToolStripDropDownButton();
+			this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+			this.buttonscriptconfig = new System.Windows.Forms.ToolStripDropDownButton();
+			this.buttoncompile = new System.Windows.Forms.ToolStripButton();
+			this.buttonclose = new System.Windows.Forms.ToolStripButton();
+			this.buttonkeywordhelp = new System.Windows.Forms.ToolStripButton();
+			this.buttonsearch = new System.Windows.Forms.ToolStripButton();
+			this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+			this.searchbox = new System.Windows.Forms.ToolStripTextBox();
+			this.searchprev = new System.Windows.Forms.ToolStripButton();
+			this.searchnext = new System.Windows.Forms.ToolStripButton();
+			this.searchmatchcase = new System.Windows.Forms.ToolStripButton();
+			this.searchwholeword = new System.Windows.Forms.ToolStripButton();
+			this.openfile = new System.Windows.Forms.OpenFileDialog();
+			this.savefile = new System.Windows.Forms.SaveFileDialog();
+			this.splitter = new System.Windows.Forms.SplitContainer();
+			this.label1 = new System.Windows.Forms.Label();
+			this.errorlist = new System.Windows.Forms.ListView();
+			this.colIndex = new System.Windows.Forms.ColumnHeader();
+			this.colDescription = new System.Windows.Forms.ColumnHeader();
+			this.colFile = new System.Windows.Forms.ColumnHeader();
+			this.errorimages = new System.Windows.Forms.ImageList(this.components);
+			this.statusbar = new System.Windows.Forms.StatusStrip();
+			this.statuslabel = new System.Windows.Forms.ToolStripStatusLabel();
+			this.positionlabel = new System.Windows.Forms.ToolStripStatusLabel();
+			this.scripttype = new System.Windows.Forms.ToolStripStatusLabel();
+			this.statusflasher = new System.Windows.Forms.Timer(this.components);
+			this.statusresetter = new System.Windows.Forms.Timer(this.components);
+			this.toolbar.SuspendLayout();
+			this.splitter.Panel1.SuspendLayout();
+			this.splitter.Panel2.SuspendLayout();
+			this.splitter.SuspendLayout();
+			this.statusbar.SuspendLayout();
+			this.SuspendLayout();
+			// 
+			// tabs
+			// 
+			this.tabs.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+						| System.Windows.Forms.AnchorStyles.Left)
+						| System.Windows.Forms.AnchorStyles.Right)));
+			this.tabs.Location = new System.Drawing.Point(3, 8);
+			this.tabs.Margin = new System.Windows.Forms.Padding(3, 8, 3, 3);
+			this.tabs.Name = "tabs";
+			this.tabs.Padding = new System.Drawing.Point(12, 3);
+			this.tabs.SelectedIndex = 0;
+			this.tabs.Size = new System.Drawing.Size(794, 379);
+			this.tabs.TabIndex = 0;
+			this.tabs.TabStop = false;
+			this.tabs.Selecting += new System.Windows.Forms.TabControlCancelEventHandler(this.tabs_Selecting);
+			this.tabs.MouseUp += new System.Windows.Forms.MouseEventHandler(this.tabs_MouseUp);
+			// 
+			// toolbar
+			// 
+			this.toolbar.AllowMerge = false;
+			this.toolbar.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+			this.toolbar.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.buttonnew,
+            this.buttonopen,
+            this.buttonsave,
+            this.buttonsaveall,
+            this.toolStripSeparator1,
+            this.buttonundo,
+            this.buttonredo,
+            this.toolStripSeparator2,
+            this.buttoncut,
+            this.buttoncopy,
+            this.buttonpaste,
+            this.toolStripSeparator3,
+            this.buttonunindent,
+            this.buttonindent,
+            this.buttonwhitespace,
+            this.buttonwordwrap,
+            this.toolStripSeparator6,
+            this.buttonsnippets,
+            this.toolStripSeparator4,
+            this.buttonscriptconfig,
+            this.buttoncompile,
+            this.buttonclose,
+            this.buttonkeywordhelp,
+            this.buttonsearch,
+            this.toolStripSeparator5,
+            this.searchbox,
+            this.searchprev,
+            this.searchnext,
+            this.searchmatchcase,
+            this.searchwholeword});
+			this.toolbar.Location = new System.Drawing.Point(0, 0);
+			this.toolbar.Name = "toolbar";
+			this.toolbar.Size = new System.Drawing.Size(800, 25);
+			this.toolbar.TabIndex = 1;
+			// 
+			// buttonnew
+			// 
+			this.buttonnew.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.buttonnew.Image = global::CodeImp.DoomBuilder.Properties.Resources.NewScript;
+			this.buttonnew.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonnew.Margin = new System.Windows.Forms.Padding(6, 1, 0, 2);
+			this.buttonnew.Name = "buttonnew";
+			this.buttonnew.Size = new System.Drawing.Size(29, 22);
+			this.buttonnew.Text = "New File";
+			// 
+			// buttonopen
+			// 
+			this.buttonopen.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.buttonopen.Image = global::CodeImp.DoomBuilder.Properties.Resources.OpenScript;
+			this.buttonopen.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonopen.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
+			this.buttonopen.Name = "buttonopen";
+			this.buttonopen.Size = new System.Drawing.Size(23, 22);
+			this.buttonopen.Text = "Open File";
+			this.buttonopen.Click += new System.EventHandler(this.buttonopen_Click);
+			// 
+			// buttonsave
+			// 
+			this.buttonsave.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.buttonsave.Enabled = false;
+			this.buttonsave.Image = global::CodeImp.DoomBuilder.Properties.Resources.SaveScript;
+			this.buttonsave.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonsave.Name = "buttonsave";
+			this.buttonsave.Size = new System.Drawing.Size(23, 22);
+			this.buttonsave.Text = "Save File";
+			this.buttonsave.Click += new System.EventHandler(this.buttonsave_Click);
+			// 
+			// buttonsaveall
+			// 
+			this.buttonsaveall.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.buttonsaveall.Enabled = false;
+			this.buttonsaveall.Image = global::CodeImp.DoomBuilder.Properties.Resources.SaveAll;
+			this.buttonsaveall.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonsaveall.Name = "buttonsaveall";
+			this.buttonsaveall.Size = new System.Drawing.Size(23, 22);
+			this.buttonsaveall.Text = "Save All Files";
+			this.buttonsaveall.Click += new System.EventHandler(this.buttonsaveall_Click);
+			// 
+			// toolStripSeparator1
+			// 
+			this.toolStripSeparator1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+			this.toolStripSeparator1.Name = "toolStripSeparator1";
+			this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+			// 
+			// buttonundo
+			// 
+			this.buttonundo.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.buttonundo.Image = global::CodeImp.DoomBuilder.Properties.Resources.Undo;
+			this.buttonundo.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonundo.Name = "buttonundo";
+			this.buttonundo.Size = new System.Drawing.Size(23, 22);
+			this.buttonundo.Text = "Undo";
+			this.buttonundo.Click += new System.EventHandler(this.buttonundo_Click);
+			// 
+			// buttonredo
+			// 
+			this.buttonredo.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.buttonredo.Image = global::CodeImp.DoomBuilder.Properties.Resources.Redo;
+			this.buttonredo.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonredo.Name = "buttonredo";
+			this.buttonredo.Size = new System.Drawing.Size(23, 22);
+			this.buttonredo.Text = "Redo";
+			this.buttonredo.Click += new System.EventHandler(this.buttonredo_Click);
+			// 
+			// toolStripSeparator2
+			// 
+			this.toolStripSeparator2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+			this.toolStripSeparator2.Name = "toolStripSeparator2";
+			this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+			// 
+			// buttoncut
+			// 
+			this.buttoncut.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.buttoncut.Image = global::CodeImp.DoomBuilder.Properties.Resources.Cut;
+			this.buttoncut.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttoncut.Name = "buttoncut";
+			this.buttoncut.Size = new System.Drawing.Size(23, 22);
+			this.buttoncut.Text = "Cut Selection";
+			this.buttoncut.Click += new System.EventHandler(this.buttoncut_Click);
+			// 
+			// buttoncopy
+			// 
+			this.buttoncopy.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.buttoncopy.Image = global::CodeImp.DoomBuilder.Properties.Resources.Copy;
+			this.buttoncopy.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttoncopy.Name = "buttoncopy";
+			this.buttoncopy.Size = new System.Drawing.Size(23, 22);
+			this.buttoncopy.Text = "Copy Selection";
+			this.buttoncopy.Click += new System.EventHandler(this.buttoncopy_Click);
+			// 
+			// buttonpaste
+			// 
+			this.buttonpaste.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.buttonpaste.Image = global::CodeImp.DoomBuilder.Properties.Resources.Paste;
+			this.buttonpaste.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonpaste.Name = "buttonpaste";
+			this.buttonpaste.Size = new System.Drawing.Size(23, 22);
+			this.buttonpaste.Text = "Paste";
+			this.buttonpaste.Click += new System.EventHandler(this.buttonpaste_Click);
+			// 
+			// toolStripSeparator3
+			// 
+			this.toolStripSeparator3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+			this.toolStripSeparator3.Name = "toolStripSeparator3";
+			this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
+			// 
+			// buttonunindent
+			// 
+			this.buttonunindent.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.buttonunindent.Image = global::CodeImp.DoomBuilder.Properties.Resources.TextUnindent;
+			this.buttonunindent.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonunindent.Name = "buttonunindent";
+			this.buttonunindent.Size = new System.Drawing.Size(23, 22);
+			this.buttonunindent.Text = "Unindent selection";
+			this.buttonunindent.Click += new System.EventHandler(this.buttonunindent_Click);
+			// 
+			// buttonindent
+			// 
+			this.buttonindent.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.buttonindent.Image = global::CodeImp.DoomBuilder.Properties.Resources.TextIndent;
+			this.buttonindent.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonindent.Name = "buttonindent";
+			this.buttonindent.Size = new System.Drawing.Size(23, 22);
+			this.buttonindent.Text = "Indent selection";
+			this.buttonindent.Click += new System.EventHandler(this.buttonindent_Click);
+			// 
+			// buttonwhitespace
+			// 
+			this.buttonwhitespace.CheckOnClick = true;
+			this.buttonwhitespace.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.buttonwhitespace.Image = global::CodeImp.DoomBuilder.Properties.Resources.TextWhitespace;
+			this.buttonwhitespace.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonwhitespace.Name = "buttonwhitespace";
+			this.buttonwhitespace.Size = new System.Drawing.Size(23, 22);
+			this.buttonwhitespace.Text = "Show whitespace";
+			this.buttonwhitespace.Click += new System.EventHandler(this.buttonwhitespace_Click);
+			// 
+			// buttonwordwrap
+			// 
+			this.buttonwordwrap.CheckOnClick = true;
+			this.buttonwordwrap.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.buttonwordwrap.Image = global::CodeImp.DoomBuilder.Properties.Resources.WordWrap;
+			this.buttonwordwrap.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonwordwrap.Name = "buttonwordwrap";
+			this.buttonwordwrap.Size = new System.Drawing.Size(23, 22);
+			this.buttonwordwrap.Text = "Wrap long lines";
+			this.buttonwordwrap.Click += new System.EventHandler(this.buttonwordwrap_Click);
+			// 
+			// toolStripSeparator6
+			// 
+			this.toolStripSeparator6.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+			this.toolStripSeparator6.Name = "toolStripSeparator6";
+			this.toolStripSeparator6.Size = new System.Drawing.Size(6, 25);
+			// 
+			// buttonsnippets
+			// 
+			this.buttonsnippets.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.buttonsnippets.Enabled = false;
+			this.buttonsnippets.Image = global::CodeImp.DoomBuilder.Properties.Resources.PuzzlePiece;
+			this.buttonsnippets.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonsnippets.Name = "buttonsnippets";
+			this.buttonsnippets.Size = new System.Drawing.Size(29, 22);
+			this.buttonsnippets.Text = "Insert a Code Snippet";
+			// 
+			// toolStripSeparator4
+			// 
+			this.toolStripSeparator4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+			this.toolStripSeparator4.Name = "toolStripSeparator4";
+			this.toolStripSeparator4.Size = new System.Drawing.Size(6, 25);
+			// 
+			// buttonscriptconfig
+			// 
+			this.buttonscriptconfig.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.buttonscriptconfig.Enabled = false;
+			this.buttonscriptconfig.Image = global::CodeImp.DoomBuilder.Properties.Resources.ScriptPalette;
+			this.buttonscriptconfig.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonscriptconfig.Name = "buttonscriptconfig";
+			this.buttonscriptconfig.Size = new System.Drawing.Size(29, 22);
+			this.buttonscriptconfig.Text = "Change Script Type";
+			// 
+			// buttoncompile
+			// 
+			this.buttoncompile.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.buttoncompile.Image = global::CodeImp.DoomBuilder.Properties.Resources.ScriptCompile;
+			this.buttoncompile.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttoncompile.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
+			this.buttoncompile.Name = "buttoncompile";
+			this.buttoncompile.Size = new System.Drawing.Size(23, 22);
+			this.buttoncompile.Text = "Compile Script";
+			this.buttoncompile.Click += new System.EventHandler(this.buttoncompile_Click);
+			// 
+			// buttonclose
+			// 
+			this.buttonclose.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+			this.buttonclose.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.buttonclose.Image = global::CodeImp.DoomBuilder.Properties.Resources.Close;
+			this.buttonclose.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonclose.Name = "buttonclose";
+			this.buttonclose.Size = new System.Drawing.Size(23, 22);
+			this.buttonclose.Text = "Close File";
+			this.buttonclose.Click += new System.EventHandler(this.buttonclose_Click);
+			// 
+			// buttonkeywordhelp
+			// 
+			this.buttonkeywordhelp.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+			this.buttonkeywordhelp.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.buttonkeywordhelp.Image = global::CodeImp.DoomBuilder.Properties.Resources.ScriptHelp;
+			this.buttonkeywordhelp.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonkeywordhelp.Name = "buttonkeywordhelp";
+			this.buttonkeywordhelp.Size = new System.Drawing.Size(23, 22);
+			this.buttonkeywordhelp.Text = "Keyword Help";
+			this.buttonkeywordhelp.Click += new System.EventHandler(this.buttonkeywordhelp_Click);
+			// 
+			// buttonsearch
+			// 
+			this.buttonsearch.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+			this.buttonsearch.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.buttonsearch.Image = global::CodeImp.DoomBuilder.Properties.Resources.Search;
+			this.buttonsearch.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonsearch.Name = "buttonsearch";
+			this.buttonsearch.Size = new System.Drawing.Size(23, 22);
+			this.buttonsearch.Text = "Open Find and Replace Window";
+			this.buttonsearch.Click += new System.EventHandler(this.buttonsearch_Click);
+			// 
+			// toolStripSeparator5
+			// 
+			this.toolStripSeparator5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+			this.toolStripSeparator5.Name = "toolStripSeparator5";
+			this.toolStripSeparator5.Size = new System.Drawing.Size(6, 25);
+			// 
+			// searchbox
+			// 
+			this.searchbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.searchbox.Name = "searchbox";
+			this.searchbox.Size = new System.Drawing.Size(100, 25);
+			this.searchbox.TextChanged += new System.EventHandler(this.searchbox_TextChanged);
+			// 
+			// searchprev
+			// 
+			this.searchprev.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.searchprev.Enabled = false;
+			this.searchprev.Image = global::CodeImp.DoomBuilder.Properties.Resources.SearchPrev;
+			this.searchprev.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.searchprev.Name = "searchprev";
+			this.searchprev.Size = new System.Drawing.Size(23, 22);
+			this.searchprev.ToolTipText = "Previous Match";
+			this.searchprev.Click += new System.EventHandler(this.searchprev_Click);
+			// 
+			// searchnext
+			// 
+			this.searchnext.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.searchnext.Enabled = false;
+			this.searchnext.Image = global::CodeImp.DoomBuilder.Properties.Resources.SearchNext;
+			this.searchnext.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.searchnext.Name = "searchnext";
+			this.searchnext.Size = new System.Drawing.Size(23, 22);
+			this.searchnext.ToolTipText = "Next Match";
+			this.searchnext.Click += new System.EventHandler(this.searchnext_Click);
+			// 
+			// searchmatchcase
+			// 
+			this.searchmatchcase.CheckOnClick = true;
+			this.searchmatchcase.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.searchmatchcase.Image = global::CodeImp.DoomBuilder.Properties.Resources.SearchMatchCase;
+			this.searchmatchcase.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.searchmatchcase.Name = "searchmatchcase";
+			this.searchmatchcase.Size = new System.Drawing.Size(23, 22);
+			this.searchmatchcase.ToolTipText = "Match Case";
+			this.searchmatchcase.Click += new System.EventHandler(this.searchbox_TextChanged);
+			// 
+			// searchwholeword
+			// 
+			this.searchwholeword.CheckOnClick = true;
+			this.searchwholeword.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.searchwholeword.Image = global::CodeImp.DoomBuilder.Properties.Resources.SearchMatch;
+			this.searchwholeword.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.searchwholeword.Name = "searchwholeword";
+			this.searchwholeword.Size = new System.Drawing.Size(23, 22);
+			this.searchwholeword.ToolTipText = "Match Whole Word";
+			this.searchwholeword.Click += new System.EventHandler(this.searchbox_TextChanged);
+			// 
+			// openfile
+			// 
+			this.openfile.Multiselect = true;
+			this.openfile.Title = "Open Script";
+			// 
+			// savefile
+			// 
+			this.savefile.Title = "Save Script As";
+			// 
+			// splitter
+			// 
+			this.splitter.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.splitter.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
+			this.splitter.IsSplitterFixed = true;
+			this.splitter.Location = new System.Drawing.Point(0, 25);
+			this.splitter.Name = "splitter";
+			this.splitter.Orientation = System.Windows.Forms.Orientation.Horizontal;
+			// 
+			// splitter.Panel1
+			// 
+			this.splitter.Panel1.Controls.Add(this.tabs);
+			// 
+			// splitter.Panel2
+			// 
+			this.splitter.Panel2.Controls.Add(this.label1);
+			this.splitter.Panel2.Controls.Add(this.errorlist);
+			this.splitter.Size = new System.Drawing.Size(800, 516);
+			this.splitter.SplitterDistance = 390;
+			this.splitter.TabIndex = 2;
+			this.splitter.TabStop = false;
+			// 
+			// label1
+			// 
+			this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+						| System.Windows.Forms.AnchorStyles.Right)));
+			this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+			this.label1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+			this.label1.Location = new System.Drawing.Point(3, 0);
+			this.label1.Name = "label1";
+			this.label1.Padding = new System.Windows.Forms.Padding(1);
+			this.label1.Size = new System.Drawing.Size(794, 16);
+			this.label1.TabIndex = 1;
+			this.label1.Text = "Errors";
+			// 
+			// errorlist
+			// 
+			this.errorlist.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+						| System.Windows.Forms.AnchorStyles.Left)
+						| System.Windows.Forms.AnchorStyles.Right)));
+			this.errorlist.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.colIndex,
+            this.colDescription,
+            this.colFile});
+			this.errorlist.FullRowSelect = true;
+			this.errorlist.GridLines = true;
+			this.errorlist.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+			this.errorlist.LabelWrap = false;
+			this.errorlist.Location = new System.Drawing.Point(3, 19);
+			this.errorlist.MultiSelect = false;
+			this.errorlist.Name = "errorlist";
+			this.errorlist.ShowGroups = false;
+			this.errorlist.Size = new System.Drawing.Size(794, 100);
+			this.errorlist.SmallImageList = this.errorimages;
+			this.errorlist.TabIndex = 0;
+			this.errorlist.TabStop = false;
+			this.errorlist.UseCompatibleStateImageBehavior = false;
+			this.errorlist.View = System.Windows.Forms.View.Details;
+			this.errorlist.ItemActivate += new System.EventHandler(this.errorlist_ItemActivate);
+			// 
+			// colIndex
+			// 
+			this.colIndex.Text = "";
+			this.colIndex.Width = 45;
+			// 
+			// colDescription
+			// 
+			this.colDescription.Text = "Description";
+			this.colDescription.Width = 500;
+			// 
+			// colFile
+			// 
+			this.colFile.Text = "File";
+			this.colFile.Width = 150;
+			// 
+			// errorimages
+			// 
+			this.errorimages.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("errorimages.ImageStream")));
+			this.errorimages.TransparentColor = System.Drawing.Color.Transparent;
+			this.errorimages.Images.SetKeyName(0, "ScriptError3.png");
+			// 
+			// statusbar
+			// 
+			this.statusbar.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.statuslabel,
+            this.positionlabel,
+            this.scripttype});
+			this.statusbar.Location = new System.Drawing.Point(0, 541);
+			this.statusbar.Name = "statusbar";
+			this.statusbar.Size = new System.Drawing.Size(800, 22);
+			this.statusbar.TabIndex = 3;
+			this.statusbar.Text = "statusStrip1";
+			// 
+			// statuslabel
+			// 
+			this.statuslabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+			this.statuslabel.Image = global::CodeImp.DoomBuilder.Properties.Resources.Status0;
+			this.statuslabel.Margin = new System.Windows.Forms.Padding(3, 3, 0, 2);
+			this.statuslabel.Name = "statuslabel";
+			this.statuslabel.Size = new System.Drawing.Size(60, 17);
+			this.statuslabel.Text = "Ready.";
+			// 
+			// positionlabel
+			// 
+			this.positionlabel.Name = "positionlabel";
+			this.positionlabel.Size = new System.Drawing.Size(634, 17);
+			this.positionlabel.Spring = true;
+			this.positionlabel.Text = "100 : 12 (120)";
+			this.positionlabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// scripttype
+			// 
+			this.scripttype.Margin = new System.Windows.Forms.Padding(30, 3, 0, 2);
+			this.scripttype.Name = "scripttype";
+			this.scripttype.Size = new System.Drawing.Size(58, 17);
+			this.scripttype.Text = "Plain Text";
+			this.scripttype.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// statusflasher
+			// 
+			this.statusflasher.Tick += new System.EventHandler(this.statusflasher_Tick);
+			// 
+			// statusresetter
+			// 
+			this.statusresetter.Tick += new System.EventHandler(this.statusresetter_Tick);
+			// 
+			// ScriptEditorPanel
+			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+			this.BackColor = System.Drawing.SystemColors.Control;
+			this.Controls.Add(this.splitter);
+			this.Controls.Add(this.statusbar);
+			this.Controls.Add(this.toolbar);
+			this.Name = "ScriptEditorPanel";
+			this.Size = new System.Drawing.Size(800, 563);
+			this.toolbar.ResumeLayout(false);
+			this.toolbar.PerformLayout();
+			this.splitter.Panel1.ResumeLayout(false);
+			this.splitter.Panel2.ResumeLayout(false);
+			this.splitter.ResumeLayout(false);
+			this.statusbar.ResumeLayout(false);
+			this.statusbar.PerformLayout();
+			this.ResumeLayout(false);
+			this.PerformLayout();
+
+		}
+
+		#endregion
+
+		private System.Windows.Forms.TabControl tabs;
+		private System.Windows.Forms.ToolStrip toolbar;
+		private System.Windows.Forms.ToolStripButton buttonopen;
+		private System.Windows.Forms.ToolStripDropDownButton buttonnew;
+		private System.Windows.Forms.OpenFileDialog openfile;
+		private System.Windows.Forms.SaveFileDialog savefile;
+		private System.Windows.Forms.ToolStripButton buttonsave;
+		private System.Windows.Forms.ToolStripButton buttonsaveall;
+		private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+		private System.Windows.Forms.ToolStripButton buttoncompile;
+		private System.Windows.Forms.ToolStripButton buttonundo;
+		private System.Windows.Forms.ToolStripButton buttonredo;
+		private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+		private System.Windows.Forms.ToolStripButton buttoncut;
+		private System.Windows.Forms.ToolStripButton buttoncopy;
+		private System.Windows.Forms.ToolStripButton buttonpaste;
+		private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
+		private System.Windows.Forms.ToolStripDropDownButton buttonscriptconfig;
+		private System.Windows.Forms.ToolStripButton buttonclose;
+		private System.Windows.Forms.SplitContainer splitter;
+		private System.Windows.Forms.ListView errorlist;
+		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.ColumnHeader colIndex;
+		private System.Windows.Forms.ColumnHeader colDescription;
+		private System.Windows.Forms.ColumnHeader colFile;
+		private System.Windows.Forms.ImageList errorimages;
+		private System.Windows.Forms.ToolStripButton buttonkeywordhelp;
+		private System.Windows.Forms.ToolStripButton buttonsearch;
+		private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
+		private System.Windows.Forms.ToolStripDropDownButton buttonsnippets;
+		private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
+		private System.Windows.Forms.ToolStripTextBox searchbox;
+		private System.Windows.Forms.ToolStripButton searchnext;
+		private System.Windows.Forms.ToolStripButton searchprev;
+		private System.Windows.Forms.ToolStripButton searchmatchcase;
+		private System.Windows.Forms.ToolStripButton searchwholeword;
+		private System.Windows.Forms.StatusStrip statusbar;
+		private System.Windows.Forms.ToolStripStatusLabel statuslabel;
+		private System.Windows.Forms.ToolStripStatusLabel scripttype;
+		private System.Windows.Forms.Timer statusflasher;
+		private System.Windows.Forms.Timer statusresetter;
+		private System.Windows.Forms.ToolStripStatusLabel positionlabel;
+		private System.Windows.Forms.ToolStripButton buttonunindent;
+		private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
+		private System.Windows.Forms.ToolStripButton buttonindent;
+		private System.Windows.Forms.ToolStripButton buttonwhitespace;
+		private System.Windows.Forms.ToolStripButton buttonwordwrap;
+	}
+}
