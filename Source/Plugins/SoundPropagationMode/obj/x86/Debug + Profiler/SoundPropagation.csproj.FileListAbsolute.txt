@@ -1,0 +1,6 @@
+C:\3DGEBuilder\Source\Plugins\SoundPropagationMode\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.SoundPropagationMode.Properties.Resources.resources
+C:\3DGEBuilder\Source\Plugins\SoundPropagationMode\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.SoundPropagationMode.ColorConfiguration.resources
+C:\3DGEBuilder\Source\Plugins\SoundPropagationMode\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.SoundPropagationMode.MenusForm.resources
+C:\3DGEBuilder\Source\Plugins\SoundPropagationMode\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.SoundPropagationMode.SoundEnvironmentPanel.resources
+C:\3DGEBuilder\Source\Plugins\SoundPropagationMode\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.SoundPropagationMode.ReverbsPickerForm.resources
+C:\3DGEBuilder\Source\Plugins\SoundPropagationMode\obj\x86\Debug + Profiler\SoundPropagation.csproj.GenerateResource.Cache

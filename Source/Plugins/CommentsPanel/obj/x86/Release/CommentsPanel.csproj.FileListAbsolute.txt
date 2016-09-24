@@ -1,0 +1,7 @@
+C:\3DGEBuilder\Build\Plugins\CommentsPanel.dll
+C:\3DGEBuilder\Build\Plugins\CommentsPanel.pdb
+C:\3DGEBuilder\Source\Plugins\CommentsPanel\obj\x86\Release\CodeImp.DoomBuilder.CommentsPanel.CommentsDocker.resources
+C:\3DGEBuilder\Source\Plugins\CommentsPanel\obj\x86\Release\CodeImp.DoomBuilder.CommentsPanel.Properties.Resources.resources
+C:\3DGEBuilder\Source\Plugins\CommentsPanel\obj\x86\Release\CommentsPanel.csproj.GenerateResource.Cache
+C:\3DGEBuilder\Source\Plugins\CommentsPanel\obj\x86\Release\CommentsPanel.dll
+C:\3DGEBuilder\Source\Plugins\CommentsPanel\obj\x86\Release\CommentsPanel.pdb

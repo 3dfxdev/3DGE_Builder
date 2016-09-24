@@ -1,0 +1,3 @@
+C:\3DGEBuilder\Source\Plugins\TagExplorer\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.TagExplorer.TagExplorer.resources
+C:\3DGEBuilder\Source\Plugins\TagExplorer\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.TagExplorer.Properties.Resources.resources
+C:\3DGEBuilder\Source\Plugins\TagExplorer\obj\x86\Debug + Profiler\TagExplorer.csproj.GenerateResource.Cache

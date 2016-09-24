@@ -1,0 +1,7 @@
+C:\3DGEBuilder\Build\Plugins\VisplaneExplorer.dll
+C:\3DGEBuilder\Build\Plugins\VisplaneExplorer.pdb
+C:\3DGEBuilder\Source\Plugins\VisplaneExplorer\obj\x86\Release\CodeImp.DoomBuilder.Plugins.VisplaneExplorer.InterfaceForm.resources
+C:\3DGEBuilder\Source\Plugins\VisplaneExplorer\obj\x86\Release\CodeImp.DoomBuilder.Plugins.VisplaneExplorer.Properties.Resources.resources
+C:\3DGEBuilder\Source\Plugins\VisplaneExplorer\obj\x86\Release\VisplaneExplorer.csproj.GenerateResource.Cache
+C:\3DGEBuilder\Source\Plugins\VisplaneExplorer\obj\x86\Release\VisplaneExplorer.dll
+C:\3DGEBuilder\Source\Plugins\VisplaneExplorer\obj\x86\Release\VisplaneExplorer.pdb

@@ -1,0 +1,8 @@
+C:\3DGEBuilder\Source\Plugins\BuilderEffects\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.BuilderEffects.MenusForm.resources
+C:\3DGEBuilder\Source\Plugins\BuilderEffects\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.BuilderEffects.IntControl.resources
+C:\3DGEBuilder\Source\Plugins\BuilderEffects\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.BuilderEffects.JitterSectorsForm.resources
+C:\3DGEBuilder\Source\Plugins\BuilderEffects\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.BuilderEffects.JitterThingsForm.resources
+C:\3DGEBuilder\Source\Plugins\BuilderEffects\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.BuilderEffects.JitterVerticesForm.resources
+C:\3DGEBuilder\Source\Plugins\BuilderEffects\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.BuilderEffects.ObjImportSettingsForm.resources
+C:\3DGEBuilder\Source\Plugins\BuilderEffects\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.BuilderEffects.Properties.Resources.resources
+C:\3DGEBuilder\Source\Plugins\BuilderEffects\obj\x86\Debug + Profiler\BuilderEffects.csproj.GenerateResource.Cache

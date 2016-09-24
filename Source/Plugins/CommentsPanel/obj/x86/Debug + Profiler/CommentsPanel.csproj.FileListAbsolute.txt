@@ -1,0 +1,3 @@
+C:\3DGEBuilder\Source\Plugins\CommentsPanel\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.CommentsPanel.CommentsDocker.resources
+C:\3DGEBuilder\Source\Plugins\CommentsPanel\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.CommentsPanel.Properties.Resources.resources
+C:\3DGEBuilder\Source\Plugins\CommentsPanel\obj\x86\Debug + Profiler\CommentsPanel.csproj.GenerateResource.Cache

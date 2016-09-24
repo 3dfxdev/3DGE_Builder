@@ -36,7 +36,7 @@ using CodeImp.DoomBuilder.Data;
 
 namespace CodeImp.DoomBuilder.BuilderModes
 {
-	[EditMode(DisplayName = "GZDB Visual Mode",
+	[EditMode(DisplayName = "3DGE Visual Mode",
 			  SwitchAction = "gzdbvisualmode", // Action name used to switch to this mode
 			  ButtonImage = "VisualModeGZ.png",	// Image resource name for the button
 			  ButtonOrder = 1,					// Position of the button (lower is more to the left)
@@ -1553,7 +1553,8 @@ namespace CodeImp.DoomBuilder.BuilderModes
 			List<IVisualEventReceiver> objs = GetSelectedObjects(false, true, false, false);
 			
 			//mxd. Because Upper/Middle/Lower textures offsets should be threated separately in UDMF
-			if(General.Map.UDMF)
+			//MaxW. But they're not for Eternity, so this needs its own config setting
+			if(General.Map.UDMF && General.Map.Config.UseLocalSidedefTextureOffsets)
 			{
 				HashSet<BaseVisualGeometrySidedef> donesides = new HashSet<BaseVisualGeometrySidedef>();
 				foreach(IVisualEventReceiver i in objs) 
@@ -3710,7 +3711,7 @@ namespace CodeImp.DoomBuilder.BuilderModes
 		//mxd. If checkSelectedSidedefParts is set to true, only selected linedef parts will be aligned (when a sidedef has both top and bottom parts, but only bottom is selected, top texture won't be aligned)
 		internal void AutoAlignTextures(BaseVisualGeometrySidedef start, ImageData texture, bool alignx, bool aligny, bool resetsidemarks, bool checkSelectedSidedefParts) 
 		{
-			if(General.Map.UDMF)
+			if(General.Map.UDMF && General.Map.Config.UseLocalSidedefTextureOffsets)
 				AutoAlignTexturesUDMF(start, texture, alignx, aligny, resetsidemarks, checkSelectedSidedefParts);
 			else
 				AutoAlignTextures(start, texture, alignx, aligny, resetsidemarks);

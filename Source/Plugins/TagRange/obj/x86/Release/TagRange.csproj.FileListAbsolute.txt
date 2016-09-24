@@ -1,0 +1,8 @@
+C:\3DGEBuilder\Build\Plugins\TagRange.dll
+C:\3DGEBuilder\Build\Plugins\TagRange.pdb
+C:\3DGEBuilder\Source\Plugins\TagRange\obj\x86\Release\CodeImp.DoomBuilder.TagRange.Properties.Resources.resources
+C:\3DGEBuilder\Source\Plugins\TagRange\obj\x86\Release\CodeImp.DoomBuilder.TagRange.TagRangeForm.resources
+C:\3DGEBuilder\Source\Plugins\TagRange\obj\x86\Release\CodeImp.DoomBuilder.TagRange.ToolsForm.resources
+C:\3DGEBuilder\Source\Plugins\TagRange\obj\x86\Release\TagRange.csproj.GenerateResource.Cache
+C:\3DGEBuilder\Source\Plugins\TagRange\obj\x86\Release\TagRange.dll
+C:\3DGEBuilder\Source\Plugins\TagRange\obj\x86\Release\TagRange.pdb

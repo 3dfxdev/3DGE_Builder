@@ -1,0 +1,7 @@
+C:\3DGEBuilder\Build\Plugins\NodesViewer.dll
+C:\3DGEBuilder\Build\Plugins\NodesViewer.pdb
+C:\3DGEBuilder\Source\Plugins\NodesViewer\obj\x86\Release\CodeImp.DoomBuilder.Plugins.NodesViewer.NodesForm.resources
+C:\3DGEBuilder\Source\Plugins\NodesViewer\obj\x86\Release\CodeImp.DoomBuilder.Plugins.NodesViewer.Properties.Resources.resources
+C:\3DGEBuilder\Source\Plugins\NodesViewer\obj\x86\Release\NodesViewer.csproj.GenerateResource.Cache
+C:\3DGEBuilder\Source\Plugins\NodesViewer\obj\x86\Release\NodesViewer.dll
+C:\3DGEBuilder\Source\Plugins\NodesViewer\obj\x86\Release\NodesViewer.pdb

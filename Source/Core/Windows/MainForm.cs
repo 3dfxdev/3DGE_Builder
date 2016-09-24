@@ -3055,11 +3055,7 @@ namespace CodeImp.DoomBuilder.Windows
 			itemhelpeditmode.Enabled = (General.Map != null && General.Editing.Mode != null);
 		}
 
-		//mxd. Check updates clicked
-		private void itemhelpcheckupdates_Click(object sender, EventArgs e)
-		{
-			UpdateChecker.PerformCheck(true);
-		}
+		
 		
 		// About clicked
 		private void itemhelpabout_Click(object sender, EventArgs e)
@@ -3106,13 +3102,13 @@ namespace CodeImp.DoomBuilder.Windows
 			//head
 			html.AppendLine("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">" + Environment.NewLine +
 								"<html xmlns=\"http://www.w3.org/1999/xhtml\">" + Environment.NewLine +
-								"<head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>GZDoom Builder Actions Reference</title></head>" + Environment.NewLine +
+								"<head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>3DGE Builder Actions Reference</title></head>" + Environment.NewLine +
 								"<body bgcolor=\"#666666\">" + Environment.NewLine +
 									"<div style=\"padding-left:60px; padding-right:60px; padding-top:20px; padding-bottom:20px;\">" + Environment.NewLine);
 
 			//table header
 			html.AppendLine("<table bgcolor=\"#FFFFFF\" width=\"100%\" border=\"0\" cellspacing=\"6\" cellpadding=\"6\" style=\"font-family: 'Trebuchet MS',georgia,Verdana,Sans-serif;\">" + Environment.NewLine +
-							"<tr><td colspan=\"4\" bgcolor=\"#333333\"><span style=\"font-size: 24px\"><a name=\"top\" id=\"top\"></a><strong style=\"color:#FFFFFF\">GZDoom Builder Actions Reference</strong></span></td></tr>");
+							"<tr><td colspan=\"4\" bgcolor=\"#333333\"><span style=\"font-size: 24px\"><a name=\"top\" id=\"top\"></a><strong style=\"color:#FFFFFF\">3DGE Builder Actions Reference</strong></span></td></tr>");
 
 			//categories navigator
 			List<string> catnames = new List<string>(sortedActions.Count);

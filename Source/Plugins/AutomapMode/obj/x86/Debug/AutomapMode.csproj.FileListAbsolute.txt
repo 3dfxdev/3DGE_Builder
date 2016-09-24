@@ -1,0 +1,3 @@
+C:\3DGEBuilder\Source\Plugins\AutomapMode\obj\x86\Debug\CodeImp.DoomBuilder.AutomapMode.MenusForm.resources
+C:\3DGEBuilder\Source\Plugins\AutomapMode\obj\x86\Debug\CodeImp.DoomBuilder.AutomapMode.Properties.Resources.resources
+C:\3DGEBuilder\Source\Plugins\AutomapMode\obj\x86\Debug\AutomapMode.csproj.GenerateResource.Cache

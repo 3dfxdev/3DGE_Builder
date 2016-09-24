@@ -157,7 +157,7 @@ namespace CodeImp.DoomBuilder.Windows
 			this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
 			this.tabPage1.Size = new System.Drawing.Size(383, 201);
 			this.tabPage1.TabIndex = 0;
-			this.tabPage1.Text = "About GZDoom Builder";
+			this.tabPage1.Text = "About 3DGE Builder";
 			this.tabPage1.UseVisualStyleBackColor = true;
 			// 
 			// pictureBox4
@@ -180,8 +180,8 @@ namespace CodeImp.DoomBuilder.Windows
 			this.gzdbLink.Size = new System.Drawing.Size(309, 42);
 			this.gzdbLink.TabIndex = 15;
 			this.gzdbLink.TabStop = true;
-			this.gzdbLink.Text = "GZDoom Builder is designed and programmed by MaxED.\r\nGZDoom Builder uses game con" +
-				"figurations created by Gez.\r\nOfficial thread at ZDoom.org";
+			this.gzdbLink.Text = "3DGE Builder is based on GZDB by MaxED.\r\n3DGE Builder uses game con" +
+				"figurations created by Gez and Juliana.\r\n   Thread @ tdgmods.net/smf";
 			this.gzdbLink.UseCompatibleTextRendering = true;
 			this.gzdbLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.gzdbLink_LinkClicked);
 			// 
@@ -203,7 +203,7 @@ namespace CodeImp.DoomBuilder.Windows
 			this.version.Name = "version";
 			this.version.Size = new System.Drawing.Size(150, 13);
 			this.version.TabIndex = 11;
-			this.version.Text = "GZDoom Builder some version";
+			this.version.Text = "3DGE Builder some version";
 			// 
 			// tabPage2
 			// 

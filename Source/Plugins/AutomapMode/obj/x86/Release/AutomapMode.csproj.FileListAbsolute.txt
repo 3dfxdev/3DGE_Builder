@@ -1,0 +1,7 @@
+C:\3DGEBuilder\Build\Plugins\AutomapMode.dll
+C:\3DGEBuilder\Build\Plugins\AutomapMode.pdb
+C:\3DGEBuilder\Source\Plugins\AutomapMode\obj\x86\Release\CodeImp.DoomBuilder.AutomapMode.MenusForm.resources
+C:\3DGEBuilder\Source\Plugins\AutomapMode\obj\x86\Release\CodeImp.DoomBuilder.AutomapMode.Properties.Resources.resources
+C:\3DGEBuilder\Source\Plugins\AutomapMode\obj\x86\Release\AutomapMode.csproj.GenerateResource.Cache
+C:\3DGEBuilder\Source\Plugins\AutomapMode\obj\x86\Release\AutomapMode.dll
+C:\3DGEBuilder\Source\Plugins\AutomapMode\obj\x86\Release\AutomapMode.pdb

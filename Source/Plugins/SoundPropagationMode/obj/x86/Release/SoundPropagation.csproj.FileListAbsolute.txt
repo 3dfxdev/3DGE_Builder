@@ -1,0 +1,10 @@
+C:\3DGEBuilder\Build\Plugins\SoundPropagationMode.dll
+C:\3DGEBuilder\Build\Plugins\SoundPropagationMode.pdb
+C:\3DGEBuilder\Source\Plugins\SoundPropagationMode\obj\x86\Release\CodeImp.DoomBuilder.SoundPropagationMode.Properties.Resources.resources
+C:\3DGEBuilder\Source\Plugins\SoundPropagationMode\obj\x86\Release\CodeImp.DoomBuilder.SoundPropagationMode.ColorConfiguration.resources
+C:\3DGEBuilder\Source\Plugins\SoundPropagationMode\obj\x86\Release\CodeImp.DoomBuilder.SoundPropagationMode.MenusForm.resources
+C:\3DGEBuilder\Source\Plugins\SoundPropagationMode\obj\x86\Release\CodeImp.DoomBuilder.SoundPropagationMode.SoundEnvironmentPanel.resources
+C:\3DGEBuilder\Source\Plugins\SoundPropagationMode\obj\x86\Release\CodeImp.DoomBuilder.SoundPropagationMode.ReverbsPickerForm.resources
+C:\3DGEBuilder\Source\Plugins\SoundPropagationMode\obj\x86\Release\SoundPropagation.csproj.GenerateResource.Cache
+C:\3DGEBuilder\Source\Plugins\SoundPropagationMode\obj\x86\Release\SoundPropagationMode.dll
+C:\3DGEBuilder\Source\Plugins\SoundPropagationMode\obj\x86\Release\SoundPropagationMode.pdb

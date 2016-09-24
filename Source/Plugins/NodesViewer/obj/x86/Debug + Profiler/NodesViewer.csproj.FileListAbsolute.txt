@@ -1,0 +1,3 @@
+C:\3DGEBuilder\Source\Plugins\NodesViewer\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.Plugins.NodesViewer.NodesForm.resources
+C:\3DGEBuilder\Source\Plugins\NodesViewer\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.Plugins.NodesViewer.Properties.Resources.resources
+C:\3DGEBuilder\Source\Plugins\NodesViewer\obj\x86\Debug + Profiler\NodesViewer.csproj.GenerateResource.Cache

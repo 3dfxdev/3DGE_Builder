@@ -55,7 +55,7 @@ namespace CodeImp.DoomBuilder.Windows
 		//mxd
 		private void gzdbLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) 
 		{
-			General.OpenWebsite("http://forum.zdoom.org/viewtopic.php?f=3&t=32392");
+			General.OpenWebsite("http://www.tdgmods.net/smf/viewforum.php?f=34");
 		}
 
 		// This copies the version number to clipboard

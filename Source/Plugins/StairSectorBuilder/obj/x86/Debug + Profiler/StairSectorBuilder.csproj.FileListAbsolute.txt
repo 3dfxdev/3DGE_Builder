@@ -1,0 +1,3 @@
+C:\3DGEBuilder\Source\Plugins\StairSectorBuilder\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.StairSectorBuilder.Properties.Resources.resources
+C:\3DGEBuilder\Source\Plugins\StairSectorBuilder\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.StairSectorBuilderMode.StairSectorBuilderForm.resources
+C:\3DGEBuilder\Source\Plugins\StairSectorBuilder\obj\x86\Debug + Profiler\StairSectorBuilder.csproj.GenerateResource.Cache

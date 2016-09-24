@@ -1,0 +1,12 @@
+C:\3DGEBuilder\Build\Plugins\ColorPicker.dll
+C:\3DGEBuilder\Build\Plugins\ColorPicker.pdb
+C:\3DGEBuilder\Source\Plugins\ColorPicker\obj\x86\Release\ColorPicker.csprojResolveAssemblyReference.cache
+C:\3DGEBuilder\Source\Plugins\ColorPicker\obj\x86\Release\CodeImp.DoomBuilder.ColorPicker.Controls.ColorPickerControl.resources
+C:\3DGEBuilder\Source\Plugins\ColorPicker\obj\x86\Release\CodeImp.DoomBuilder.ColorPicker.Properties.Resources.resources
+C:\3DGEBuilder\Source\Plugins\ColorPicker\obj\x86\Release\CodeImp.DoomBuilder.ColorPicker.Windows.LightColorPicker.resources
+C:\3DGEBuilder\Source\Plugins\ColorPicker\obj\x86\Release\CodeImp.DoomBuilder.ColorPicker.ToolsForm.resources
+C:\3DGEBuilder\Source\Plugins\ColorPicker\obj\x86\Release\CodeImp.DoomBuilder.ColorPicker.Controls.ColorPickerSlider.resources
+C:\3DGEBuilder\Source\Plugins\ColorPicker\obj\x86\Release\CodeImp.DoomBuilder.ColorPicker.Windows.SectorColorPicker.resources
+C:\3DGEBuilder\Source\Plugins\ColorPicker\obj\x86\Release\ColorPicker.csproj.GenerateResource.Cache
+C:\3DGEBuilder\Source\Plugins\ColorPicker\obj\x86\Release\ColorPicker.dll
+C:\3DGEBuilder\Source\Plugins\ColorPicker\obj\x86\Release\ColorPicker.pdb

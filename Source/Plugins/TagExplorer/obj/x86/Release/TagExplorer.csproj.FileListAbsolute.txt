@@ -1,0 +1,8 @@
+C:\3DGEBuilder\Build\Plugins\TagExplorer.dll
+C:\3DGEBuilder\Build\Plugins\TagExplorer.pdb
+C:\3DGEBuilder\Source\Plugins\TagExplorer\obj\x86\Release\TagExplorer.csprojResolveAssemblyReference.cache
+C:\3DGEBuilder\Source\Plugins\TagExplorer\obj\x86\Release\CodeImp.DoomBuilder.TagExplorer.TagExplorer.resources
+C:\3DGEBuilder\Source\Plugins\TagExplorer\obj\x86\Release\CodeImp.DoomBuilder.TagExplorer.Properties.Resources.resources
+C:\3DGEBuilder\Source\Plugins\TagExplorer\obj\x86\Release\TagExplorer.csproj.GenerateResource.Cache
+C:\3DGEBuilder\Source\Plugins\TagExplorer\obj\x86\Release\TagExplorer.dll
+C:\3DGEBuilder\Source\Plugins\TagExplorer\obj\x86\Release\TagExplorer.pdb

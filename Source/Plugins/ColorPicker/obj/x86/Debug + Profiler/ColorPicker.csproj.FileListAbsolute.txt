@@ -1,0 +1,7 @@
+C:\3DGEBuilder\Source\Plugins\ColorPicker\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.ColorPicker.Controls.ColorPickerControl.resources
+C:\3DGEBuilder\Source\Plugins\ColorPicker\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.ColorPicker.Properties.Resources.resources
+C:\3DGEBuilder\Source\Plugins\ColorPicker\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.ColorPicker.Windows.LightColorPicker.resources
+C:\3DGEBuilder\Source\Plugins\ColorPicker\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.ColorPicker.ToolsForm.resources
+C:\3DGEBuilder\Source\Plugins\ColorPicker\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.ColorPicker.Controls.ColorPickerSlider.resources
+C:\3DGEBuilder\Source\Plugins\ColorPicker\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.ColorPicker.Windows.SectorColorPicker.resources
+C:\3DGEBuilder\Source\Plugins\ColorPicker\obj\x86\Debug + Profiler\ColorPicker.csproj.GenerateResource.Cache

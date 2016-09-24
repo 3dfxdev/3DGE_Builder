@@ -1,0 +1,4 @@
+C:\3DGEBuilder\Source\Plugins\TagRange\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.TagRange.Properties.Resources.resources
+C:\3DGEBuilder\Source\Plugins\TagRange\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.TagRange.TagRangeForm.resources
+C:\3DGEBuilder\Source\Plugins\TagRange\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.TagRange.ToolsForm.resources
+C:\3DGEBuilder\Source\Plugins\TagRange\obj\x86\Debug + Profiler\TagRange.csproj.GenerateResource.Cache

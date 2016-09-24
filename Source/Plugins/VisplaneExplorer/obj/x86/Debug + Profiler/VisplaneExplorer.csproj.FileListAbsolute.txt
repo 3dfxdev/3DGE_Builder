@@ -1,0 +1,3 @@
+C:\3DGEBuilder\Source\Plugins\VisplaneExplorer\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.Plugins.VisplaneExplorer.InterfaceForm.resources
+C:\3DGEBuilder\Source\Plugins\VisplaneExplorer\obj\x86\Debug + Profiler\CodeImp.DoomBuilder.Plugins.VisplaneExplorer.Properties.Resources.resources
+C:\3DGEBuilder\Source\Plugins\VisplaneExplorer\obj\x86\Debug + Profiler\VisplaneExplorer.csproj.GenerateResource.Cache

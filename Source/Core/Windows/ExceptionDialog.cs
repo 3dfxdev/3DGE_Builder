@@ -72,7 +72,7 @@ namespace CodeImp.DoomBuilder.Windows
 				"At least it's not BSoD...",
 				"User Error. Please Replace User",
 				"Brought to you by MaxED!",
-				"GZDoom Builder proudly presents:",
+				"3DGE Builder proudly presents:",
 				"You aren't expected to understand this",
 				"Back to the drawing board...",
 				"I'm sorry... :(",
@@ -103,7 +103,7 @@ namespace CodeImp.DoomBuilder.Windows
 				"Freeze mode enabled",
 				"You feel strange...",
 				"That doesn't seem to work",
-				"This function is only available in the retail version of GZDoom Builder",
+				"This function is only available in the retail version of 3DGE Builder",
 				"You picked up the Random Exception.",
 				"Pinky says that you're the new hope. Bear that in mind.",
 				"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
@@ -204,7 +204,7 @@ namespace CodeImp.DoomBuilder.Windows
 		{
 			try 
 			{
-				System.Diagnostics.Process.Start("http://forum.zdoom.org/viewtopic.php?f=3&t=32392&start=9999999");
+				System.Diagnostics.Process.Start("http://www.tdgmods.net/smf/viewforum.php?f=34");
 			} 
 			catch(Exception) 
 			{

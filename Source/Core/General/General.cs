@@ -118,10 +118,10 @@ namespace CodeImp.DoomBuilder
 		//internal const int SIF_ALL = SIF_RANGE + SIF_PAGE + SIF_POS + SIF_TRACKPOS;
 		
 		// Files and Folders
-		private const string SETTINGS_FILE = "GZBuilder.cfg";
-		private const string DEFAULT_SETTINGS_FILE = "GZBuilder.default.cfg"; //mxd
+		private const string SETTINGS_FILE = "3DGEBuilder.cfg";
+		private const string DEFAULT_SETTINGS_FILE = "3DGEBuilder.default.cfg"; //mxd
 		private const string SETTINGS_DIR = "Doom Builder";
-		private const string LOG_FILE = "GZBuilder.log";
+		private const string LOG_FILE = "3DGEBuilder.log";
 		private const string GAME_CONFIGS_DIR = "Configurations";
 		private const string COMPILERS_DIR = "Compilers";
 		private const string PLUGINS_DIR = "Plugins";
@@ -582,7 +582,7 @@ namespace CodeImp.DoomBuilder
 			
 			// Remove the previous log file and start logging
 			if(File.Exists(logfile)) File.Delete(logfile);
-			General.WriteLogLine("GZDoom Builder R" + thisasm.GetName().Version.Revision + " startup"); //mxd
+			General.WriteLogLine("3DGE Builder R" + thisasm.GetName().Version.Revision + " startup"); //mxd
 			General.WriteLogLine("Application path:        \"" + apppath + "\"");
 			General.WriteLogLine("Temporary path:          \"" + temppath + "\"");
 			General.WriteLogLine("Local settings path:     \"" + settingspath + "\"");
@@ -716,8 +716,7 @@ namespace CodeImp.DoomBuilder
 					}
 				}
 
-				//mxd. Check for updates?
-				if(General.Settings.CheckForUpdates) UpdateChecker.PerformCheck(false);
+				
 				
 				// Run application from the main window
 				Application.Run(mainwindow);
@@ -1027,10 +1026,10 @@ namespace CodeImp.DoomBuilder
 				//mxd. Launch the updater?
 				if(PendingUpdateRev != 0)
 				{
-					General.WriteLogLine("Initiating update to R" + PendingUpdateRev + "...");
+					//General.WriteLogLine("Initiating update to R" + PendingUpdateRev + "...");
 
 					// Working directory must be set
-					Process.Start(new ProcessStartInfo { WorkingDirectory = apppath, FileName = "Updater.exe", Arguments = "-rev " + PendingUpdateRev } );
+					//Process.Start(new ProcessStartInfo { WorkingDirectory = apppath, FileName = "Updater.exe", Arguments = "-rev " + PendingUpdateRev } );
 				}
 
 				// Application ends here and now

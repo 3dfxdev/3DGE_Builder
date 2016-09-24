@@ -1,0 +1,8 @@
+C:\3DGEBuilder\Source\Plugins\StairSectorBuilder\obj\x86\Release\StairSectorBuilder.csprojResolveAssemblyReference.cache
+C:\3DGEBuilder\Source\Plugins\StairSectorBuilder\obj\x86\Release\CodeImp.DoomBuilder.StairSectorBuilder.Properties.Resources.resources
+C:\3DGEBuilder\Source\Plugins\StairSectorBuilder\obj\x86\Release\CodeImp.DoomBuilder.StairSectorBuilderMode.StairSectorBuilderForm.resources
+C:\3DGEBuilder\Source\Plugins\StairSectorBuilder\obj\x86\Release\StairSectorBuilder.csproj.GenerateResource.Cache
+C:\3DGEBuilder\Build\Plugins\StairSectorBuilder.dll
+C:\3DGEBuilder\Build\Plugins\StairSectorBuilder.pdb
+C:\3DGEBuilder\Source\Plugins\StairSectorBuilder\obj\x86\Release\StairSectorBuilder.dll
+C:\3DGEBuilder\Source\Plugins\StairSectorBuilder\obj\x86\Release\StairSectorBuilder.pdb

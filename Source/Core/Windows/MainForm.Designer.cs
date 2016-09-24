@@ -1251,14 +1251,7 @@ namespace CodeImp.DoomBuilder.Windows
 			this.itemhelpeditmode.Size = new System.Drawing.Size(232, 22);
 			this.itemhelpeditmode.Text = "About this &Editing Mode";
 			this.itemhelpeditmode.Click += new System.EventHandler(this.itemhelpeditmode_Click);
-			// 
-			// itemhelpcheckupdates
-			// 
-			this.itemhelpcheckupdates.Image = global::CodeImp.DoomBuilder.Properties.Resources.Update;
-			this.itemhelpcheckupdates.Name = "itemhelpcheckupdates";
-			this.itemhelpcheckupdates.Size = new System.Drawing.Size(232, 22);
-			this.itemhelpcheckupdates.Text = "&Check for updates...";
-			this.itemhelpcheckupdates.Click += new System.EventHandler(this.itemhelpcheckupdates_Click);
+
 			// 
 			// seperatorhelpmanual
 			// 
@@ -1271,7 +1264,7 @@ namespace CodeImp.DoomBuilder.Windows
 			this.itemhelpabout.Image = global::CodeImp.DoomBuilder.Properties.Resources.About;
 			this.itemhelpabout.Name = "itemhelpabout";
 			this.itemhelpabout.Size = new System.Drawing.Size(232, 22);
-			this.itemhelpabout.Text = "&About GZDoom Builder...";
+			this.itemhelpabout.Text = "&About 3DGE Builder...";
 			this.itemhelpabout.Click += new System.EventHandler(this.itemhelpabout_Click);
 			// 
 			// toolbar
@@ -2614,7 +2607,7 @@ namespace CodeImp.DoomBuilder.Windows
 			this.Name = "MainForm";
 			this.Opacity = 1;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-			this.Text = "GZDoom Builder";
+			this.Text = "3DGE Builder";
 			this.Deactivate += new System.EventHandler(this.MainForm_Deactivate);
 			this.Load += new System.EventHandler(this.MainForm_Load);
 			this.Shown += new System.EventHandler(this.MainForm_Shown);

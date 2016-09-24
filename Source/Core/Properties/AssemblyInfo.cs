@@ -5,11 +5,11 @@ using System.Resources;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("GZDoom Builder")]
-[assembly: AssemblyDescription("ZDoom, GZDoom and Zandronum map editor (can be used for Vanilla/Boom mapping too!)")]
+[assembly: AssemblyTitle("3DGE Builder")]
+[assembly: AssemblyDescription("3DGE (and EDGE) map editor (can be used for Vanilla/Boom mapping too!)")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("CodeImp, MaxED")]
-[assembly: AssemblyProduct("GZDoom Builder")]
+[assembly: AssemblyCompany("CodeImp, MaxED, Coraline (Chu)")]
+[assembly: AssemblyProduct("3DGE Builder")]
 [assembly: AssemblyCopyright("Copyright © 2007, 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -31,3 +31,5 @@ using System.Resources;
 //
 [assembly: AssemblyVersion("2.3.0.2651")]
 [assembly: NeutralResourcesLanguageAttribute("en")]
+[assembly: AssemblyFileVersion("0.0.0.2")]
+
