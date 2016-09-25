@@ -1,7 +1,19 @@
-Disclaimer of warranty:
+Before you install this program, you must have the SlimDX RunTime installed on your machine, which you can get below:
 
-The software and documentation are provided as is without warranty of any kind. To the maximum extent permitted by applicable law, MaxED further disclaims all warranties, including without limitation any implied warranties of merchantability, fitness for a particular purpose, and noninfringement.
+http://slimdx.org/download.php
 
-The entire risk arising out of the use or performance of the software and documentation remains with you.
+You only need the .NET 2.0 SDK installer! 
 
-To the maximum extent permitted by applicable law, in no event shall MaxED be liable for any consequential, incidental, direct, indirect, special, punitive, or other damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or other pecuniary loss) arising out of this agreement or the use of or inability to use the product, even if MaxED has been advised of the possibility of such damages.
+===========
+This software is licensed under the GPL, which you can find in the root directory named 'GPL.txt'.
+===========
+
+DISCLAIMER:
+===========
+Isotope SoftWorks (the "authors") are not liable for any damages this software may or may not cause to your machine.
+
+If you don't agree with the above, you are not authorized to install or use 3DGE Builder! The authors are in no way
+responsible for anything that might arise to you, others, or your machine(s) from using this program. 
+
+Thanks! You may proceed now.
+
